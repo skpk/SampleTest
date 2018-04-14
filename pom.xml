@@ -16,6 +16,7 @@
     </dependency>
   </dependencies>
   <build>
+    <plugins>
     <plugin>            
          <groupId>org.apache.maven.plugins</groupId>
          <artifactId>maven-war-plugin</artifactId>
@@ -23,7 +24,7 @@
               <webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
          </configuration>
      </plugin>   
-    
+    <plugins>
     <finalName>SampleTest</finalName>
   </build>
 </project>
