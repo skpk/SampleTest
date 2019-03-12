@@ -18,12 +18,12 @@
   <build>
     
     <plugins>
-
-            <plugin>
+       <plugin>
          <groupId>org.apache.maven.plugins</groupId>
          <artifactId>maven-war-plugin</artifactId>
          <configuration>
               <webXml>SampleTest\src\main\webapp\WEB-INF\web.xml</webXml>   
+           <outputDirectory>${user.home}/tmp</outputDirectory>
              </configuration>
             </plugin>
 
