@@ -23,7 +23,7 @@
          <artifactId>maven-war-plugin</artifactId>
          <configuration>
               <webXml>SampleTest\src\main\webapp\WEB-INF\web.xml</webXml>   
-           <outputDirectory>${user.home}/tmp</outputDirectory>
+           <outputDirectory>/tmp</outputDirectory>
              </configuration>
             </plugin>
 
