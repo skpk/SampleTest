@@ -19,5 +19,6 @@ public class Prime {
             System.out.println("this is jagadish and Comitted a New Change"); 
         else
             System.out.println(num + " is not a prime number.");
+            System.out.println("this is jagadish in the if else loop");
     }
 }
