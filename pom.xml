@@ -88,7 +88,6 @@
          <artifactId>maven-war-plugin</artifactId>
          <configuration>
               <webXml>SampleTest\src\main\webapp\WEB-INF\web.xml</webXml>   
-           <outputDirectory>/tmp</outputDirectory>
              </configuration>
             </plugin>
 
